@@ -1,0 +1,12 @@
+:root{
+	--color-1: rgb(0, 152, 218); /*azul fuerte*/
+	--color-2: rgb(0, 60, 130); /*azul*/
+	--color-3: #EEEEEE; /*blanco*/
+	--color-4: rgb(42, 38, 35); /*negro*/
+}
+/**************************************************************/
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
