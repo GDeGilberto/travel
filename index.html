@@ -8,6 +8,7 @@
 
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon/style.css">
 	<link rel="SHORTCUT ICON"  href="img/ico-logo.png">
 
 	<meta name = "twitter: card" content = "summary"> </meta>
@@ -18,6 +19,7 @@
 	<meta name="twitter: image" content="">
 	<meta name="twitter:image:alt" content="beaner">
 
+	<script type="text/javascript" src="/js/script.js"></script>
 	<script type="application/ld+json">
 		{
 		  "@context": "http://schema.org",
@@ -35,17 +37,31 @@
 </head>
 <body>
 	<header>
+		<img src="" alt="beaner">
 		<h1>LATITUD TRAVEL</h1>
 		<p>PORQUE LA MEJOR EXPERIENCIA SE ESCRIBE</p>
 		<P>Asesor de viajes.</P>
 	</header>
 	<nav>
-		<a href=""><img src="" alt="Logo"></a>
-		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Servicios</a></li>
-			<li><a href="#">Paquetes</a></li>
-			<li><a href="#">Contacto</a></li>	
+		<a id="menu" href="javascript:void(0)"  class="column-3" onclick="mostrar()">
+			<span class="icon-menu"></span>
+			MENU
+		</a>
+		<a href="index.html" class="column-3">
+			<img src="img/maleta.png" alt="logo">
+		</a>
+		<a href="" class="column-3">
+			Busqueda
+			<span class="icon-search"></span>
+		</a>
+		<ul id="menu-vertical">
+			<a id="cerrar" href="javascript:void(0)" onclick="ocultar()">
+				<span  class="icon-close" ></span>
+			</a>
+			<li class="lista-menu"><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
+			<li class="lista-menu"><a href="#"><span class="icon-globe"></span> Servicios</a></li>
+			<li class="lista-menu"><a href="#"><span class="icon-map"></span> Paquetes</a></li>
+			<li class="lista-menu"><a href="#"><span class="icon-compass"></span> Contacto</a></li>	
 		</ul>
 	</nav>
 	<section>
@@ -87,10 +103,10 @@
 		<div>
 			<h3>Redes Sociales</h3>
 			<ul>
-				<li><a href="https://www.facebook.com/LatitudTravel"><img src="" alt="facebook"></a></li>
-				<li><a href="#"><img src="" alt="Messenger"></a></li>
-				<li><a href="#"><img src="" alt="Instagram"></a></li>
-				<li><a href="#"><img src="" alt="Whatsapp"></a></li>
+				<li><a href="https://www.facebook.com/LatitudTravel"><img src="img/facebook.png" alt="facebook"></a></li>
+				<li><a href="#"><img src="img/messenger.png" alt="Messenger"></a></li>
+				<li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+				<li><a href="#"><img src="img/whatsapp.png" alt="Whatsapp"></a></li>
 			</ul>
 		</div>
 	</footer>
