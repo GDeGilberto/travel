@@ -31,7 +31,7 @@ h4{
 	font-size: 26px;
 }
 p{
-	font-size: 25px;
+	font-size: 22px;
 }
 ul, ol{
 	position: relative;	
@@ -48,7 +48,19 @@ header{
 	margin-top: 50px;
 	width: 100%;
 	text-align: center;
-	padding: 32px;
+	padding: 0 32px 32px 32px;
+	background: linear-gradient(#54AFE8, ghostwhite);
+}
+header > img{
+	width: 100%;
+}
+.boton-central{
+	border: none;
+	background-color:orangered;
+	color: mintcream;
+	padding: 4px;
+	border-radius: 6px;
+	font-size: 1.05em;
 }
 nav{
 	background-color: ghostwhite;
