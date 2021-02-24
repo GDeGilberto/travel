@@ -16,19 +16,21 @@ body{
 	overflow-x: hidden;
 	text-align: center;
 }
+
 h1{
 	font-size: 40px;
 	text-transform: uppercase;
 	text-align: center;
 }	
 h2{
-	font-size: 35px;
+	font-size: 32px;
 }
 h3{
-	font-size: 28px;
+	font-size: 25px;
+	color: dodgerblue;
 }
 h4{
-	font-size: 26px;
+	font-size: 24px;
 }
 p{
 	font-size: 22px;
@@ -78,6 +80,8 @@ nav{
 }
 section{
 	display: block;
+	margin: 0 10px 20px 10px;
+	padding: 15px 0;
 }
 footer{
 	background-color: slategray;
@@ -112,8 +116,27 @@ footer{
 	flex: 30%;
 	max-width: 33.333%;
 }
+.img-movil{
+	width: 90%;
+	height: 50vh;
+	border: black 1px solid;
+	border-radius: 20px;
+}
 
+.ventana{
+	border: #ccc 1px solid;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+}
+.ventana > img{
+	float: left;
+	height: 50px;
+}
 
+#paquetes{
+	background-color: paleturquoise;
+	border-radius: 15px;
+}
 /* Moviles en horizontal y tablet vertical */
 @media (min-width:768px){
 	body{
