@@ -9,23 +9,23 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/icomoon/style.css">
-	<link rel="SHORTCUT ICON"  href="img/ico-logo.png">
+	<!--<link rel="SHORTCUT ICON"  href="img/ico-logo.png">-->
 
 	<meta name = "twitter: card" content = "summary"> </meta>
-	<meta name = "twitter: site" content="@gilbertoA514"> </meta>
+	<meta name = "twitter: site" content="@"> </meta>
 	<meta name = "twitter: creator" content = "@gilbertoA514" />
-	<meta name="twitter: title" content="Inventa tu mundo">
-	<meta name="twitter: description" content="Equipo de trabajo de IYW nuestro lema es innovar o aprender a mejorar nuestra calidad de trabajo">
+	<meta name="twitter: title" content="Latitud Travel">
+	<meta name="twitter: description" content="Agencia gestion turistica">
 	<meta name="twitter: image" content="">
-	<meta name="twitter:image:alt" content="beaner">
+	<meta name="twitter:image:alt" content="">
 
-	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script type="application/ld+json">
 		{
 		  "@context": "http://schema.org",
 		  "@type": "Organization",
-		  "name": "Inventa tu mundo",
-		  "url": "http://inventatumundo.com",
+		  "name": "Latitud Travel",
+		  "url": "",
 		  "address": "",
 		  "sameAs": [
 			"https://www.facebook.com/InventYourWorld",
@@ -37,10 +37,14 @@
 </head>
 <body>
 	<header>
-		<p>PORQUE LA MEJOR EXPERIENCIA SE ESCRIBE</p>
-		<h1>LATITUD TRAVEL</h1>
-		<img src="img/logo.png" alt="logo">
-		<img src="img/beaner.png" alt="beaner">
+		<div class="lineal">
+			<p>PORQUE LA MEJOR EXPERIENCIA SE ESCRIBE</p>
+			<h1>LATITUD TRAVEL</h1>
+			<img src="img/logo.png" alt="logo">
+		</div>
+		<div class="lineal">
+			<img id="beaner" src="img/beaner.png" alt="beaner">
+		</div>
 		<P>Asesor de viajes.</P>
 		<button class="boton-central">LLAMAR</button>
 	</header>
@@ -61,12 +65,12 @@
 				<span  class="icon-close" ></span>
 			</a>
 			<li class="lista-menu"><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
-			<li class="lista-menu"><a href="#"><span class="icon-globe"></span> Servicios</a></li>
-			<li class="lista-menu"><a href="#"><span class="icon-map"></span> Paquetes</a></li>
+			<li class="lista-menu"><a href="#servicios"><span class="icon-globe"></span> Servicios</a></li>
+			<li class="lista-menu"><a href="#paquetes"><span class="icon-map"></span> Paquetes</a></li>
 			<li class="lista-menu"><a href="#"><span class="icon-compass"></span> Contacto</a></li>	
 		</ul>
 	</nav>
-	<section>
+	<section id="servicios">
 		<h2>SERVICIOS</h2>
 		<div class="bloque">
 			<h3>ASESORIA PARA AGENCIAS DE VIAJES</h3>
@@ -83,63 +87,67 @@
 			<img class="img-movil" src="img/recomendacion.png" alt="persona asesorando">
 			<p>Recomencaciones en los mejores hoteles y en los mejores lugares.</p>
 		</div>
+		<div>
+			<video class="img-movil" src="mp4/latitud1.mp4" controls poster="#"></video>
+		</div>
 	</section>
 	<section id="paquetes">
 		<h2>PAQUETES MAS POPULARES</h2>
-		<section>
+		<!--<section>
 			<h3>Valor agregado a tu viaje</h3>
 			<div class="ventana">
-				<img src="img/facebook.png" alt="logo de carro">
+				<img src="img/paquete.png" alt="logo de carro">
 				<h4>Veiculo</h4>
 				<p>Reserva un vehiculo</p>
 			</div>
 			<div class="ventana">
-				<img src="img/facebook.png" alt="logo de hotel">
+				<img src="img/paquete.png" alt="logo de hotel">
 				<h4>Hoteles</h4>
 				<p>Reserva tu hotel</p>
 			</div>
 			<div class="ventana">
-				<img src="img/facebook.png" alt="logo de avion">
+				<img src="img/paquete.png" alt="logo de avion">
 				<h4>Vuelo</h4>
 				<p>Reserva tu vuelo</p>
 			</div>
-		</section>
+		</section>-->
 		<section>
-			<div>
-				<img class="img-movil" src="img/paquete.png" alt="paquete turista">
-				<h4>Economico</h4>
-				<p>Viaje de 2 dias y 1 noche</p>
-				<ul>
-					<li>Hospedaje 2-4 estrellas</li>
-					<li>Vuelo economico</li>
-				</ul>
+			<div class="bloque">
+				<img class="img-movil" src="img/paquete.jpg" alt="paquete turista">
+				<div class="paquete">
+					<p>Vuelo + Hotel</p>
+					<h4>CANCUN SALIENDO CD DE MEXICO</h4>
+					<div class="presio">
+						<h5>Presio vuelo redondo</h5>
+						<p>MXN $6,200</p>
+					</div>
+				</div>
 			</div>
-			<div>
-				<img class="img-movil" src="img/paquete.png" alt="">
-				<h4>Vacacional</h4>
-				<p>Despejate en mejor paquete</p>
-				<ul>
-					<li>Hospedaje 3-4 estrellas</li>
-					<li>Vuelo economico</li>
-					<li>Reservacion en restaurantes</li>
-				</ul>
+			<div class="bloque">
+				<img class="img-movil" src="img/paquete.jpg" alt="paquete turista">
+				<div class="paquete">
+					<p>Vuelo + Hotel</p>
+					<h4>CANCUN SALIENDO CD DE MEXICO</h4>
+					<div class="presio">
+						<h5>Presio vuelo redondo</h5>
+						<p>MXN $6,200</p>
+					</div>
+				</div>
 			</div>
-			<div>
-				<img class="img-movil" src="img/paquete.png" alt="">
-				<h4>Premium</h4>
-				<p>Contento con los mejores lugos.</p>
-				<ul>
-					<li>Vehiculo disponible</li>
-					<li>Hotel 4-5 estrellas</li>
-					<li>Vuelo ejecutivo</li>
-					<li>Reservacion en restaurantes</li>
-					<li>Recorrido turisticos</li>
-					<li>Disponibilidad personal biligue</li>
-				</ul>
+			<div class="bloque">
+				<img class="img-movil" src="img/paquete.jpg" alt="paquete turista">
+				<div class="paquete">
+					<p>Vuelo + Hotel</p>
+					<h4>CANCUN SALIENDO CD DE MEXICO</h4>
+					<div class="presio">
+						<h5>Presio vuelo redondo</h5>
+						<p>MXN $6,200</p>
+					</div>
+				</div>
 			</div>
 		</section>
 	</section>
-	<footer>
+	<footer id="footer">
 		<div>
 			<h3>Contacto</h3>
 			<a href="mailto: latittudtravel@gmail.com">Enviar correo</a>
