@@ -150,9 +150,6 @@ footer{
 }
 /* Moviles en horizontal y tablet vertical */
 @media (min-width:768px){
-	body{
-		
-	}
 	h1{
 		display: none;
 	}
@@ -175,12 +172,21 @@ footer{
 
 /* Tablets en horizontal y escritorio normales */
 @media (min-width: 1024px){
-	body{
-	}
+	
 	
 	/***********************/
-	
-
+	.column-3{
+		display: none;
+	}
+	#menu-vertical{
+		display: flex;
+	}
+	#cerrar{
+		display: none;
+	}
+	.lista-menu{
+		display: inline-block;
+	}
 
 
 }
