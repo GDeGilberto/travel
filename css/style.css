@@ -38,9 +38,7 @@ p{
 ul, ol{
 	position: relative;	
 }
-ul > li{
-	display: inline-block;
-}
+
 a{
 	text-decoration: none;
 	color: black;
@@ -52,20 +50,6 @@ header{
 	text-align: center;
 	padding: 20px 18px 32px 18px;
 	background: linear-gradient(#54AFE8, ghostwhite);
-}
-.lineal > h1{
-	display: none;
-}
-.lineal > img{
-	width: 80%;
-}
-.boton-central{
-	border: none;
-	background-color:orangered;
-	color: mintcream;
-	padding: 4px;
-	border-radius: 6px;
-	font-size: 1.05em;
 }
 nav{
 	background-color: ghostwhite;
@@ -91,27 +75,18 @@ footer{
 	width: 100%;
 	padding: 10px 0 26px 0;
 }
+ul > li{
+	display: inline-block;
+}
+.boton-central{
+	border: none;
+	background-color:orangered;
+	color: mintcream;
+	padding: 4px;
+	border-radius: 6px;
+	font-size: 1.05em;
+}
 
-#menu-vertical{
-	background-color: ghostwhite;
-	width: 80%;
-	height: 100vh;
-	padding: 15px 0 0 30px;
-	text-align: left;
-	display: none;
-	position: absolute;
-	left: 0;
-	top: 0;
-	transition: width 1s;
-	z-index: 1;
-}
-#menu-vertical a:hover{
-	background-color: #ccc;
-}
-#menu-vertical > li{
-	display: block;
-	padding: 10px 0;
-}
 
 .column-3{
 	-ms-flex: 30%;
@@ -140,14 +115,40 @@ footer{
 	padding: 10px 5px;
 	margin-bottom: 10px;
 }
+.lineal > h1{
+	display: none;
+}
+.lineal > img{
+	width: 80%;
+}
 .ventana > img{
 	float: left;
 	width: 100%;
 }
-
+#menu-vertical{
+	background-color: ghostwhite;
+	width: 80%;
+	height: 100vh;
+	padding: 15px 0 0 30px;
+	text-align: left;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: width 1s;
+	z-index: 1;
+}
 #paquetes{
 	border-radius: 15px;
 }
+#menu-vertical > li{
+	display: block;
+	padding: 10px 0;
+}
+#menu-vertical a:hover{
+	background-color: #ccc;
+}
+
 /* Moviles en horizontal y tablet vertical */
 @media (min-width:768px){
 	h1{
@@ -158,16 +159,13 @@ footer{
 		display: inline-block;
 		width: 49%;
 	}
-
-	.lineal > img{
-		width: 100%;
-	}
-
 	.bloque{
 		display: inline-block;
 		width: 48%;
 	}
-
+	.lineal > img{
+		width: 100%;
+	}
 }
 
 /* Tablets en horizontal y escritorio normales */
@@ -175,20 +173,42 @@ footer{
 	
 	
 	/***********************/
+	header{
+		padding: 50px 80px;
+	}
+	video{
+		width: 40%;
+	}
 	.column-3{
 		display: none;
 	}
-	#menu-vertical{
-		display: flex;
+	.lista-menu{
+		display: inline-block !important;
+		width: auto;
 	}
+	.bloque{
+		width: 33%;
+		display: inline-block;
+	}
+	#beaner{
+		height: 30em;
+		width: auto;
+	}
+	
+	#menu-vertical{
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+	
 	#cerrar{
 		display: none;
 	}
-	.lista-menu{
-		display: inline-block;
+	
+	#paquetes > .bloque{
+		width: 24%;
 	}
-
-
+	
 }
 
 /* Escritorios muy anchos */
